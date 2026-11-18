@@ -1,0 +1,8 @@
+Experiment A_no_augmentation | augment=False | seed=42 | device=cpu | epochs=5 batch=64 lr=0.001 weight_decay=0.01
+initial-weights fingerprint: 1.519054
+epoch  1/5 | train loss 0.8312 acc 0.6195 | val loss 0.6699 acc 0.7137 | 3.2s  <- best
+epoch  2/5 | train loss 0.6343 acc 0.7357 | val loss 0.5975 acc 0.7507 | 3.6s  <- best
+epoch  3/5 | train loss 0.5495 acc 0.7761 | val loss 0.5179 acc 0.7920 | 4.2s  <- best
+epoch  4/5 | train loss 0.4956 acc 0.8019 | val loss 0.5156 acc 0.7840 | 3.8s
+epoch  5/5 | train loss 0.4481 acc 0.8223 | val loss 0.4449 acc 0.8217 | 4.1s  <- best
+best epoch 5 (val acc 0.8217) | total training time 19.0s

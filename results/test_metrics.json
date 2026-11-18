@@ -1,0 +1,54 @@
+{
+  "A_no_augmentation": {
+    "test_acc": 0.8263333333333334,
+    "test_loss": 0.4459292757511139,
+    "per_class_acc": {
+      "airplane": 0.858,
+      "automobile": 0.912,
+      "ship": 0.709
+    },
+    "confusion_matrix": [
+      [
+        858,
+        59,
+        83
+      ],
+      [
+        63,
+        912,
+        25
+      ],
+      [
+        179,
+        112,
+        709
+      ]
+    ]
+  },
+  "B_hflip": {
+    "test_acc": 0.832,
+    "test_loss": 0.4368744752407074,
+    "per_class_acc": {
+      "airplane": 0.872,
+      "automobile": 0.897,
+      "ship": 0.727
+    },
+    "confusion_matrix": [
+      [
+        872,
+        50,
+        78
+      ],
+      [
+        75,
+        897,
+        28
+      ],
+      [
+        168,
+        105,
+        727
+      ]
+    ]
+  }
+}
