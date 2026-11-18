@@ -1,0 +1,13 @@
+RESULTS SUMMARY (seed 42, 5 epochs, batch 64, lr 0.001)
+
+Best validation accuracy : A 0.8217 (epoch 5) | B 0.8287 (epoch 5)
+Test accuracy            : A 0.8263 | B 0.8320 | B - A = +0.57 pp
+Test loss                : A 0.4459 | B 0.4369
+Train - val accuracy gap : A +0.0006 | B -0.0063   (at the selected epoch; larger = more overfitting)
+Per-class test accuracy  : airplane: A 0.858 / B 0.872 | automobile: A 0.912 / B 0.897 | ship: A 0.709 / B 0.727
+Weakest class            : A ship | B ship
+Most frequent error      : A true ship -> predicted airplane (179 images) | B true ship -> predicted airplane (168 images)
+Misclassified test images: A 521 | B 504
+Paired test (McNemar)    : only A correct on 72, only B correct on 89, p = 0.207
+
+Verdict: B (random horizontal flip) scored higher on the test set by 0.57 percentage points, but a gap this size is within what chance can produce on this test set (p >= 0.05); no reliable gain or loss from augmentation can be claimed from this single run.

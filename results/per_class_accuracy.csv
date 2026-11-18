@@ -1,0 +1,4 @@
+class,A: no augmentation,B: random h-flip,B - A (pp)
+airplane,0.858,0.872,1.4000000000000012
+automobile,0.912,0.897,-1.5000000000000013
+ship,0.709,0.727,1.8000000000000016

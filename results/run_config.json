@@ -1,0 +1,37 @@
+{
+  "parameters": {
+    "SEED": 42,
+    "DETERMINISTIC": true,
+    "CLASS_NAMES": [
+      "airplane",
+      "automobile",
+      "ship"
+    ],
+    "VAL_DIVISOR": 5,
+    "EPOCHS": 5,
+    "BATCH_SIZE": 64,
+    "LEARNING_RATE": 0.001,
+    "WEIGHT_DECAY": 0.01,
+    "OPTIMIZER": "AdamW",
+    "LOSS": "CrossEntropyLoss (raw logits)",
+    "FLIP_PROB": 0.5,
+    "N_MISCLASSIFIED": 12,
+    "RUN_EXTRA_SEEDS": false,
+    "EXTRA_SEEDS": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "environment": {
+    "python": "3.13.9",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.4.2",
+    "pandas": "2.2.3",
+    "torch": "2.12.1+cpu",
+    "device": "cpu",
+    "cuda": null,
+    "gpu": null
+  }
+}

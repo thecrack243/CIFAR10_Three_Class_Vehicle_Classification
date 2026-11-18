@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "layout": "NCHW",
+  "image_dtype": "uint8",
+  "label_dtype": "int64",
+  "classes": [
+    "airplane",
+    "automobile",
+    "ship"
+  ],
+  "provided_train_pool": 15000,
+  "suggested_training": 12000,
+  "suggested_validation": 3000,
+  "test": 3000,
+  "per_class_train_pool": [
+    5000,
+    5000,
+    5000
+  ],
+  "per_class_validation": [
+    1000,
+    1000,
+    1000
+  ],
+  "per_class_test": [
+    1000,
+    1000,
+    1000
+  ],
+  "image_shape": [
+    3,
+    32,
+    32
+  ],
+  "source": "https://www.cs.toronto.edu/~kriz/cifar.html ; subset downloaded from https://huggingface.co/datasets/uoft-cs/cifar10"
+}

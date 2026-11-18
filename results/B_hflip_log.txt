@@ -1,0 +1,8 @@
+Experiment B_hflip | augment=True | seed=42 | device=cpu | epochs=5 batch=64 lr=0.001 weight_decay=0.01
+initial-weights fingerprint: 1.519054
+epoch  1/5 | train loss 0.8020 acc 0.6402 | val loss 0.6484 acc 0.7243 | 3.4s  <- best
+epoch  2/5 | train loss 0.6245 acc 0.7321 | val loss 0.5876 acc 0.7597 | 4.8s  <- best
+epoch  3/5 | train loss 0.5446 acc 0.7798 | val loss 0.5162 acc 0.7943 | 3.1s  <- best
+epoch  4/5 | train loss 0.4940 acc 0.8002 | val loss 0.4628 acc 0.8177 | 3.4s  <- best
+epoch  5/5 | train loss 0.4468 acc 0.8223 | val loss 0.4334 acc 0.8287 | 3.4s  <- best
+best epoch 5 (val acc 0.8287) | total training time 18.1s
