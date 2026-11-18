@@ -1,3 +1,0 @@
-0: airplane
-1: automobile
-2: ship

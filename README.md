@@ -10,13 +10,14 @@ with **random horizontal flip on the training set only** (experiment B). Everyth
 CIFAR10_Three_Class_Vehicle_Classification/
 ├── README.md
 ├── requirements.txt
-├── DataSet/            # provided offline dataset (dataset.npz, labels.txt, dataset_info.json, check_data.py, ...)
 ├── notebook/
 │   └── notebook.ipynb  # the full pipeline (run this)
 ├── img/                # figures saved by the notebook (created if missing)
 ├── models/             # best-validation weights of each experiment (created if missing)
 └── results/            # logs, tables, metrics (created if missing)
 ```
+
+The local `DataSet/` and `report/` folders are excluded from Git. `DataSet/` must be present locally to run the notebook; it should contain the project dataset (`dataset.npz`) and label mapping (`labels.txt`). The report is a local deliverable and is not required to run the notebook.
 
 ## Setup and run
 
