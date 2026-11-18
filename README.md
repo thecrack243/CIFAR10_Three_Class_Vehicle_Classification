@@ -17,7 +17,7 @@ CIFAR10_Three_Class_Vehicle_Classification/
 └── results/            # logs, tables, metrics (created if missing)
 ```
 
-The local `DataSet/` and `report/` folders are excluded from Git. `DataSet/` must be present locally to run the notebook; it should contain the project dataset (`dataset.npz`) and label mapping (`labels.txt`). The report is a local deliverable and is not required to run the notebook.
+The local `DataSet/`, `report/`, and `models/` folders are excluded from Git. `DataSet/` must be present locally to run the notebook; it should contain the project dataset (`dataset.npz`) and label mapping (`labels.txt`). Model checkpoints are generated when the notebook runs. The report is a local deliverable and is not required to run the notebook.
 
 ## Setup and run
 
